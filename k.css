@@ -1,0 +1,184 @@
+body{
+background:#f5f5f0;
+font-size:16px;
+}
+
+.wrapper{
+	display:flex;
+	justify-content:center;
+	
+}
+.wrapper .header .top {
+font-family:'Roboto',sans-serif;
+}
+
+.wrapper .header .top .form .input_field {
+ /*border-radius:40px;
+ background:red;
+if you remove this ,  you will get different affect
+ */
+ margin-top:8px;
+}
+
+.wrapper .header .top .box .logo img{
+	height:120px;
+	display:flex;
+	justify-content:center;
+	padding:10px 30px 0px 30px;
+}
+
+.wrapper .header .top .form .input_field .input{
+	width:90%;
+    border:1px solid #a6a5a1;
+	background:#f2eee1;
+     border-radius:4px;
+      padding:7px;
+      font-size:14px;
+}   
+
+/*.wrapper.header.form.input_field.input:focus{
+border:1px solid #b2b2b2;
+}*/
+
+
+.wrapper .header .top   .form .btn{
+	margin-top:20px;
+
+}
+
+.wrapper .header .top   .form .btn button{
+		padding:6px  123px;/*to increase the length of box*/
+		font-size:14px;
+		background:#0c90e8;
+		font-weight:750;
+		color:#f5f8fa;
+		border-radius:5px;
+		border:1px solid #0c90e8;
+
+}
+
+.wrapper .header .top   .form .or{
+	display:flex;
+	justify-content:space-between;
+	margin-top:10px;
+	color:#a6a5a1;
+	font-size:17px;
+}
+
+.wrapper .header .top .form .or .line {
+  width:100px;
+  height:1px;
+  background:#b8bfba;
+  margin-top:22px;
+}
+
+.wrapper .header .top .form .diff .fb{
+	/*margin-left:70px;
+	margin-top:10px;*/
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.wrapper .header .top .form .diff .fb img{
+	width:20px;
+	height:20px;
+}
+
+.wrapper .header .top .form .diff .fb p{
+	color:#2a66c7;
+	font-weight:550;
+	margin-left:20px;
+}
+
+.wrapper .header .top .form .diff .forgot a{
+	text-decoration:none;
+	color:#10264a;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5px;
+    font-size:14px;
+    margin-left:2px;
+}
+
+.wrapper .header .top .signup a{
+	text-decoration:none;
+	color:#2a66c7;
+	font-weight:560;
+}
+
+.wrapper .header .top .apps p{
+	text-align:center;
+	margin-right:50px;
+}
+
+.wrapper .header .top .apps .icons a img{
+	width:280px;
+	height:40px;
+	margin:0 0 0 60px;
+}
+
+
+.wrapper .header .top .apps p{
+	margin-left:30px;
+}
+ .footer .row ul li{
+	list-style:none;
+}
+
+ .footer .row ul li a{
+	text-decoration:none;
+    font-size:14px;
+    color:#a6a5a1;
+}
+
+ .footer .row{
+	max-width:985px;
+	width:100%;
+   margin:0 auto;
+   margin-left:300px;
+   margin-top:10px;
+   /* padding:40px 0;*/
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.footer .row ul{
+	margin:20px;
+}
+.footer .row ul li{
+display:inline-block;
+margin-right:10px;
+}
+
+
+.footer  p{
+	font-size:14px;
+    color:#a6a5a1;
+    margin-left:660px;
+   /*padding-bottom:300px;*/
+   /*margin-bottom:200px;*/
+
+}
+
+.wrapper .header .top .box{
+	border:1px solid  #e6e6e6;
+	/*width:400px;*/
+	padding:0px 40px 20px 40px;
+	border-radius:3px;
+	background:#fff;
+
+}
+.wrapper .header .top .signup{
+	
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	/*dispaly:flex;*/
+    margin-top:10px;
+	background:#fff;
+    border:1px solid  #e6e6e6;
+    border-radius:3px;
+
+}
